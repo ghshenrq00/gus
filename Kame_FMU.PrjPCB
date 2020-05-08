@@ -44,23 +44,6 @@ PrefsRevisionGUID=
 ReleaseTarget=3
 
 [Document1]
-DocumentPath=..\..\..\..\Matheus Reis\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\PCB erro fiduciais.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=THVELFYC
-
-[Document2]
 DocumentPath=1_reference.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -77,7 +60,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MDQDMCEN
 
-[Document3]
+[Document2]
 DocumentPath=2_mb_conn.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -94,7 +77,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OTZQBXYK
 
-[Document4]
+[Document3]
 DocumentPath=3_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -111,7 +94,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QXFUVJEN
 
-[Document5]
+[Document4]
 DocumentPath=4_cpu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -128,7 +111,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RNHAROZB
 
-[Document6]
+[Document5]
 DocumentPath=5_spi_memory.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -145,7 +128,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LOPFEKYW
 
-[Document7]
+[Document6]
 DocumentPath=6_uart_esc_i2c.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -162,7 +145,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SWBCQVPN
 
-[Document8]
+[Document7]
 DocumentPath=7_can_rc_i2c_analog.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -179,7 +162,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YLCIOWMF
 
-[Document9]
+[Document8]
 DocumentPath=8_imu&debug_conn.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -196,7 +179,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VRKBFCSZ
 
-[Document10]
+[Document9]
 DocumentPath=Kame_FMU.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -213,7 +196,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UXNCFHRY
 
-[Document11]
+[Document10]
 DocumentPath=Kame_FMU.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -230,7 +213,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -247,7 +230,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -264,7 +247,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=Kame_FMU.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -281,7 +264,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=Kame_FMU_asm_rm.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -310,74 +293,6 @@ Variation3=Designator=R30|UniqueId=\DXHMFGXH|Kind=1|AlternatePart=
 Variation4=Designator=R15|UniqueId=\XUSZWCYQ|Kind=1|AlternatePart= 
 Variation5=Designator=CN4|UniqueId=\SZJEZVSO|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Kame_FMU\Design Rule Check - Kame_FMU.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.G1
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.G2
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.G3
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.G4
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GM11
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.REP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Kame_FMU\Kame_FMU.RUL
-DItemRevisionGUID=
 
 [Parameter1]
 Name=Project
@@ -1263,36 +1178,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
