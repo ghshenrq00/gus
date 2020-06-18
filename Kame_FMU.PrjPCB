@@ -295,12 +295,12 @@ Variation5=Designator=CN4|UniqueId=\SZJEZVSO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Project
-Value=KAME_FMU
-
-[Parameter2]
 Name=ProjectRev
 Value=2
+
+[Parameter2]
+Name=Project
+Value=KAME_FMU
 
 [Configuration1]
 Name=Sources
@@ -1178,36 +1178,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1412,81 +1382,81 @@ Type67=1
 Type68=1
 
 [Electrical Rules Check]
-Type1=1
-Type2=1
-Type3=2
+Type1=0
+Type2=0
+Type3=0
 Type4=1
-Type5=2
-Type6=2
+Type5=0
+Type6=0
 Type7=0
-Type8=1
-Type9=1
-Type10=1
-Type11=2
+Type8=0
+Type9=0
+Type10=0
+Type11=0
 Type12=0
 Type13=0
-Type14=1
-Type15=1
-Type16=1
-Type17=1
-Type18=1
-Type19=1
+Type14=0
+Type15=0
+Type16=0
+Type17=0
+Type18=0
+Type19=0
 Type20=0
 Type21=0
 Type22=0
 Type23=0
-Type24=1
-Type25=2
+Type24=0
+Type25=0
 Type26=0
-Type27=2
-Type28=1
-Type29=1
-Type30=1
-Type31=1
-Type32=2
+Type27=0
+Type28=0
+Type29=0
+Type30=0
+Type31=0
+Type32=0
 Type33=0
-Type34=2
-Type35=1
-Type36=2
-Type37=1
-Type38=2
-Type39=2
-Type40=2
+Type34=0
+Type35=0
+Type36=0
+Type37=0
+Type38=0
+Type39=0
+Type40=0
 Type41=0
-Type42=2
-Type43=1
+Type42=0
+Type43=0
 Type44=0
 Type45=0
 Type46=0
 Type47=0
 Type48=0
 Type49=0
-Type50=2
+Type50=0
 Type51=0
 Type52=0
-Type53=1
-Type54=1
-Type55=1
-Type56=2
-Type57=1
-Type58=1
-Type59=2
+Type53=0
+Type54=0
+Type55=0
+Type56=0
+Type57=0
+Type58=0
+Type59=0
 Type60=0
 Type61=0
 Type62=0
 Type63=0
 Type64=0
-Type65=2
+Type65=0
 Type66=3
 Type67=2
 Type68=2
-Type69=2
-Type70=2
-Type71=2
-Type72=2
-Type73=2
-Type74=1
-Type75=2
+Type69=0
+Type70=0
+Type71=0
+Type72=0
+Type73=0
+Type74=0
+Type75=0
 Type76=1
 Type77=1
 Type78=1
@@ -1494,14 +1464,14 @@ Type79=1
 Type80=2
 Type81=3
 Type82=3
-Type83=3
-Type84=3
-Type85=3
-Type86=2
-Type87=2
-Type88=2
-Type89=1
-Type90=1
+Type83=0
+Type84=0
+Type85=0
+Type86=0
+Type87=0
+Type88=0
+Type89=0
+Type90=0
 Type91=3
 Type92=3
 Type93=2
@@ -1510,8 +1480,8 @@ Type95=2
 Type96=2
 Type97=2
 Type98=0
-Type99=1
-Type100=2
+Type99=0
+Type100=0
 Type101=0
 Type102=2
 Type103=2
@@ -1521,19 +1491,19 @@ Type106=2
 Type107=2
 Type108=2
 Type109=1
-Type110=1
-Type111=1
-Type112=1
+Type110=3
+Type111=0
+Type112=3
 Type113=1
 Type114=2
 Type115=2
 Type116=2
 Type117=3
 Type118=3
-Type119=3
-MultiChannelAlternate=2
-AlternateItemFail=3
-Type122=2
+Type119=0
+MultiChannelAlternate=0
+AlternateItemFail=0
+Type122=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1575,17 +1545,6 @@ NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
-[Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
@@ -1610,4 +1569,15 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
