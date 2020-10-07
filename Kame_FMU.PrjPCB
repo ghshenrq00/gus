@@ -34,14 +34,14 @@ ManagedProjectGUID=18078281-8065-4D59-8234-D165925BEF74
 VaultGUID=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
 ReleaseVaultName=<Company> Server
 ItemGUID=18078281-8065-4D59-8234-D165925BEF74
-IncludeDesignInRelease=0
+IncludeDesignInRelease=1
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Release]
-ReleaseTarget=1
+ReleaseTarget=3
 ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
@@ -250,7 +250,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=Managed\OutputJobs\BDCC41ED-C66F-4F03-AE94-BBD9A7B40AFA\OUT-0005-2.OutJob
+DocumentPath=Assembly.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -293,7 +310,11 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=D883A99A-ECB7-4F49-AF6B-759CBB3A3FCD
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=2
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=Fabrication.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
@@ -303,22 +324,11 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=F9AE7133-12DE-482E-9976-175711405D38
 Variant=[No Variations]
-OutputJobsCount=1
-DocumentReferenceClass1=ManagedDocumentReference
-OutputJobFileName1=OUT-0005-2.OutJob
-VaultGUID1=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
-VaultHRID1=SKA- Automação de Engenharias
-ItemGUID1=F62A70FC-7B0E-4154-A792-5808F383B4E3
-ItemHRID1=OUT-0005
-RevisionGUID1=BDCC41ED-C66F-4F03-AE94-BBD9A7B40AFA
-RevisionHRID1=OUT-0005-2
-Cached_RevisionCaption1=Validation
-Cached_RevisionDescription1=Validation
-Cached_LifeCycleStateHRID1=Draft
-Cached_LifeCycleStateGUID1=[Unknown]
-Cached_LifeCycleStateColor1=00F0F0F0
-Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=20/04/2018 14:37:32
+OutputJobsCount=2
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=Fabrication.OutJob
 ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
@@ -328,22 +338,11 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=2753EF9E-D847-42CA-A5E0-561A93C2B0BF
 Variant=[No Variations]
-OutputJobsCount=1
-DocumentReferenceClass1=ManagedDocumentReference
-OutputJobFileName1=OUT-0005-2.OutJob
-VaultGUID1=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
-VaultHRID1=SKA- Automação de Engenharias
-ItemGUID1=F62A70FC-7B0E-4154-A792-5808F383B4E3
-ItemHRID1=OUT-0005
-RevisionGUID1=BDCC41ED-C66F-4F03-AE94-BBD9A7B40AFA
-RevisionHRID1=OUT-0005-2
-Cached_RevisionCaption1=Validation
-Cached_RevisionDescription1=Validation
-Cached_LifeCycleStateHRID1=Draft
-Cached_LifeCycleStateGUID1=[Unknown]
-Cached_LifeCycleStateColor1=00F0F0F0
-Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=20/04/2018 14:37:32
+OutputJobsCount=2
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=Fabrication.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -353,22 +352,11 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=ED148982-7129-4A4A-AA99-CF78DC43CC64
 Variant=Default
-OutputJobsCount=1
-DocumentReferenceClass1=ManagedDocumentReference
-OutputJobFileName1=OUT-0005-2.OutJob
-VaultGUID1=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
-VaultHRID1=SKA- Automação de Engenharias
-ItemGUID1=F62A70FC-7B0E-4154-A792-5808F383B4E3
-ItemHRID1=OUT-0005
-RevisionGUID1=BDCC41ED-C66F-4F03-AE94-BBD9A7B40AFA
-RevisionHRID1=OUT-0005-2
-Cached_RevisionCaption1=Validation
-Cached_RevisionDescription1=Validation
-Cached_LifeCycleStateHRID1=Draft
-Cached_LifeCycleStateGUID1=[Unknown]
-Cached_LifeCycleStateColor1=00F0F0F0
-Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=20/04/2018 14:37:32
+OutputJobsCount=2
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=Fabrication.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -376,24 +364,13 @@ ConfigurationType=Assembly
 Name=Validação
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=451D4E66-A3D6-424B-87FD-AAA1DD30DA6F
 Variant=[No Variations]
-OutputJobsCount=1
-DocumentReferenceClass1=ManagedDocumentReference
-OutputJobFileName1=OUT-0005-2.OutJob
-VaultGUID1=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
-VaultHRID1=SKA- Automação de Engenharias
-ItemGUID1=F62A70FC-7B0E-4154-A792-5808F383B4E3
-ItemHRID1=OUT-0005
-RevisionGUID1=BDCC41ED-C66F-4F03-AE94-BBD9A7B40AFA
-RevisionHRID1=OUT-0005-2
-Cached_RevisionCaption1=Validation
-Cached_RevisionDescription1=Validation
-Cached_LifeCycleStateHRID1=Draft
-Cached_LifeCycleStateGUID1=[Unknown]
-Cached_LifeCycleStateColor1=00F0F0F0
-Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=20/04/2018 14:37:32
+OutputJobsCount=2
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=Fabrication.OutJob
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
@@ -544,11 +521,21 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -560,6 +547,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1541,19 +1538,4 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-
-[ManagedOutputJobs1]
-VaultGUID=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
-VaultHRID=SKA- Automação de Engenharias
-ItemGUID=F62A70FC-7B0E-4154-A792-5808F383B4E3
-ItemHRID=OUT-0005
-RevisionGUID=BDCC41ED-C66F-4F03-AE94-BBD9A7B40AFA
-RevisionHRID=OUT-0005-2
-Cached_RevisionCaption=Validation
-Cached_RevisionDescription=Validation
-Cached_LifeCycleStateHRID=Draft
-Cached_LifeCycleStateGUID=[Unknown]
-Cached_LifeCycleStateColor=00F0F0F0
-Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=20/04/2018 14:37:32
 
