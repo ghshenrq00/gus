@@ -436,6 +436,9 @@ SaveSettingsToOutJob=-1
 [Generic_EDE]
 OutputDir=
 
+[Generic_CoDesigner Mechatronic Panel]
+LastAcknowledgment=2020-10-07T14:35:56.4030000Z
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
